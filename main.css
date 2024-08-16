@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+
+}
+
+body {
+    background-image: url(./imagens/copia-1405082.png);
+}
+
+header {
+    color: rgb(55, 55, 209);
+    font-style: italic;
+    padding: 16px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom:8px ;
+}
+
+header img {
+    max-height: 100px;
+    max-width: 100px;
+    width: 100%;
+}
+
+.container {
+    display:flex;
+    justify-content: center;
+    font-size: 24px;
+    padding: 16px 16px;
+}
+
+h4 {
+    color: rgb(55, 55, 209);
+    padding: 10px;
+    margin-right: 310px;
+}
+
+input {
+    border-color: rgb(55, 55, 209);
+    align-items: center;
+    padding: 5px;
+    display: flex;
+    padding-bottom: 8px;
+    border-radius: 6px;
+    width: 850px;
+    margin-left: 330px;
+}
+
+form {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    padding: 10px;
+    padding-bottom: 50px;
+}
+
+button {
+    background-color: rgb(55, 55, 209);
+    color: #fff;
+    padding: 5px 0px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 16px;
+    margin: 10px 10px;
+    border: none;
+    margin-top: 45px;
+}
+
+.containerLi {
+    display:flex;
+    justify-content:center ;
+    font-size: 24px;
+    padding: 16px 16px;
+}
+
+.containerLi li {
+    list-style: none;
+    padding: 8px 8px;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.completo {
+    text-decoration: line-through;
+    cursor: pointer;
+}
+
+.rodape {
+    margin-top: 235px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color:rgba(26, 90, 103, 0.723);
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    font-size: 24px;
+}
+
+
+/*    const form = document.getElementById('form-atividade');
+
+let linhas = '';
+
+form.addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    const taskInput = document.getElementById('taskInput');
+
+
+    let linha = '<tr>';
+    linha += `<td>${taskInput.value}</td>`;
+    linha += `</tr>`;
+
+    linhas += linha;
+
+    const corpoTabela = document.querySelector('tbody');
+    corpoTabela.innerHTML = linhas;
+
+    taskInput.value = '';
+});*/
